@@ -17,7 +17,16 @@ Para copiar um endpoint de formulário, acesse a página "Formulários", escolha
 |     phone     |  String  |
 
 
+### Exemplo de endpoint
+
+```
+https://app.traction.to/webhook/lead/n01tc4rt20
+```
+
+
 ### Exemplo de Payload
+
+O payload deve ser do tipo JSON. 
 
 ```JSON
 {
