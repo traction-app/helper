@@ -33,9 +33,9 @@ O payload deve ser do tipo JSON.
 
 ```JSON
 {
-	"name": "John Doe",
-	"email": "john@example.com",
-	"phone": "+551199999999",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "+551199999999",
 }
 ```
 
@@ -87,12 +87,12 @@ Status: 201 OK
 
 ```JSON
 {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "phone": "+551199999999",
-    "campaign": "Campanha de teste",
-    "forms": "Formulário de teste",
-    "channel": "Chatbot",
-    "status": "qualified"
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "+551199999999",
+  "campaign": "Campanha de teste",
+  "forms": "Formulário de teste",
+  "channel": "Chatbot",
+  "status": "qualified"
 }
 ```
