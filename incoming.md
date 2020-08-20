@@ -17,7 +17,7 @@ Para copiar um endpoint de formulário, acesse a página "Formulários", escolha
 |            phone            |  String  |
 
 
-*Campos Adicionais*
+**Campos Adicionais**
 
 É possível enviar campos adicionais além dos campos primários (name, email e phone). Todos os campos adicionais serão convertidos em um novo objeto específico de campos adicionais e poderão ser alterados ou removidos dentro da ferramenta. 
 
@@ -81,9 +81,11 @@ curl -X POST \
 }'
 ```
 
-### Saídas
+### Retorno
 
-Status: 201 OK
+```
+Status 201 OK
+```
 
 ```JSON
 {
