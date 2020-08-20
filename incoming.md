@@ -43,9 +43,9 @@ Enviando parâmetros adicionais
 
 ```JSON
 {
-	"name": "John Doe",
-	"email": "john@example.com",
-	"phone": "+551199999999",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "+551199999999",
   "company": "Google",
   "city": "São Paulo",
   "state": "SP"
