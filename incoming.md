@@ -10,16 +10,15 @@ Uma das formas de enviar um lead para o Traction é através de uma requisição
 
 Para copiar um endpoint de formulário, acesse a página "Formulários", escolha um dos formulários existentes, abra a opção "Endpoint" e copie a URL disponível lá.
 
-| **Parametros Obrigatórios** | **Tipo** |
-| :-------------------------: | :------: |
-|            name             |  String  |
-|            email            |  String  |
-|            phone            |  String  |
-
+| **Parametros** | **Tipo** |
+| :------------: | :------: |
+|      name      |  String  |
+|     email      |  String  |
+|     phone      |  String  |
 
 **Campos Adicionais**
 
-É possível enviar campos adicionais além dos campos primários (name, email e phone). Todos os campos adicionais serão convertidos em um novo objeto específico de campos adicionais e poderão ser alterados ou removidos dentro da ferramenta. 
+É possível enviar campos adicionais além dos campos primários (name, email e phone). Todos os campos adicionais serão convertidos em um novo objeto específico de campos adicionais e poderão ser alterados ou removidos dentro da ferramenta.
 
 ### Exemplo de endpoint
 
