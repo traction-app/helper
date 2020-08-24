@@ -34,8 +34,8 @@ Também é possível parâmetros de texto estáticos que podem ser utilizados pa
 Caso o web service que irá receber a webhook esteja protegido por alguma autenticação, ela deverá ser feito aqui. 
 Existem dois tipos de autenticação HTTP:
 
-Basic Auth: *Schema* para autenticação utilizando usuário e senha (ou um token em base64 se necessário)
-Token Bearer: *Schema* de autenticação utilizando apenas um token. 
+- Basic Auth: Schema para autenticação utilizando usuário e senha (ou um token em base64 se necessário)
+- Token Bearer: Schema de autenticação utilizando apenas um token
 
 **Exemplo:**
 ![Exemplo com Token Bearer](./images/webhook-5.png)
