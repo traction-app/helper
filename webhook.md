@@ -19,9 +19,15 @@ Endpoint é a URL do serviço que receberá a requisição, que poderá ser JSON
 
 Caso seja preciso mapear ou filtrar os campos que serão enviados ao web service. Se não for mapeado, todos os campos serão enviados. 
 
+**Exemplo:**
+![Exemplo de campos mapeados](./images/webhook-3.png)
+
 ## Parâmetros Extra
 
 Também é possível parâmetros de texto estáticos que podem ser utilizados para identificar a origem do lead por exemplo.
+
+**Exemplo:**
+![Exemplo com campo extra](./images/webhook-4.png)
 
 ## Autenticação
 
@@ -30,6 +36,9 @@ Existem dois tipos de autenticação HTTP:
 
 Basic Auth: *Schema* para autenticação utilizando usuário e senha (ou um token em base64 se necessário)
 Token Bearer: *Schema* de autenticação utilizando apenas um token. 
+
+**Exemplo:**
+![Exemplo com Token Bearer](./images/webhook-5.png)
 
 # Exemplo de requisição enviado
 
@@ -45,6 +54,7 @@ Com mapeamento dos campos *name*, *email* e *phone*
 ```
 
 ## Sem mapeamento
+Todos os campos serão enviados
 
 ```json
 {
