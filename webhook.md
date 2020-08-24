@@ -9,7 +9,7 @@ Um webhook pode ser cadastrado através do menu "Webhooks" disponível na ferram
 ![Webhook Menu](./images/webhook-1.png)
 
 
-![Páginas de Webhook](./images/webhook-1.png)
+![Páginas de Webhook](./images/webhook-2.png)
 
 ## Endpoint
 
