@@ -4,7 +4,7 @@ RESTful API do Traction
 
 ## Entidades / Objetos
 
-* [Leads](#api/README.md)
+* [Leads](leads)
 
 ## URL Base
 

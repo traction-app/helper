@@ -12,7 +12,12 @@ Cadastra um Lead
 {
     "name": "string",
     "email": "string|required",
-    "password": "string"    
+    "phone": "string",
+    "campaign": "string",
+    "form": "string",
+    "channel": "string",
+    "status": "string",
+    "extra_fields": "object"
 }
 ```
 
