@@ -19,15 +19,35 @@ Atualiza um Lead
     "form": "string",
     "channel": "string",
     "status": "string",
-    "extra_fields": "object"
+    "extra_fields": "array/object"
 }
 ```
 
 **Exemplo**
 
+## Alterando o status de um lead para "Venda Fechado".
+
 ```json
 {
     "status": "acquired"
+}
+```
+
+## Alterando o telefone e campos extras.
+
+```json
+{
+    "phone": "+5511100000000",
+    "extra_fields": [
+      {
+        "key": "city",
+        "value": "Araraquara"
+      },
+      {
+        "key": "state",
+        "value": "SP"
+      }
+    ]
 }
 ```
 
@@ -42,11 +62,20 @@ Atualiza um Lead
     "uuid": "2f114dec-74bf-8c9a-8cb8-1ebbfb716ced",
     "name": "John Doe",
     "email": "john@traction.to",
-    "phone": "+551111111111",
+    "phone": "+5511100000000",
     "campaign": null,
     "form": null,
-    "channel": "Direto",
+    "channel": "Indicação",
     "status": "acquired",
-    "extra_fields": null
+    "extra_fields": [
+        {
+            "key": "city",
+            "value": "Araraquara"
+        },
+        {
+            "key": "state",
+            "value": "SP"
+        }
+    ]
 }
 ```

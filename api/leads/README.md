@@ -7,7 +7,7 @@ Objeto *Leads*
 * [Listar leads](index.md) : `GET /leads`
 * [Criar um lead](store.md) : `POST /leads`
 * [Visualizar um Lead](show.md) : `GET /leads/:uuid`
-* [Atualizar um lead](update.md) : `PUT | PATCH /leads/:uuid`
+* [Atualizar um lead](update.md) : `PUT|PATCH /leads/:uuid`
 * [Delete An Account](destroy.md) : `DELETE /leads/:uuid`
 
 
